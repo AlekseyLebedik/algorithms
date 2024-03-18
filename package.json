@@ -1,0 +1,38 @@
+{
+  "name": "quick-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/babel src --out-dir lib && node lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AlekseyLebedik/algorithms.git"
+  },
+  "keywords": [
+    "algoritm",
+    "quick-search",
+    "javascript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlekseyLebedik/algorithms/issues"
+  },
+  "homepage": "https://github.com/AlekseyLebedik/algorithms#readme",
+  "babel": {
+    "presets": [],
+    "plugins": []
+  },
+  "dependencies": {
+    "babel-plugin-module-resolver": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.24.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.23.3",
+    "@babel/preset-env": "^7.24.0"
+  }
+}
